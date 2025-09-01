@@ -1,0 +1,12 @@
+#ifndef CONFIG_H_IN
+#define CONFIG_H_IN
+ 
+#define tmaster_project_name "@tmaster_project_name@"
+#define tmaster_version_major @tmaster_version_major@
+#define tmaster_version_minor @tmaster_version_minor@
+#define tmaster_version_patch @tmaster_version_patch@
+#define tmaster_version_string "@tmaster_version_string@"
+
+#define trex_env_dir "@trex_env_dir@"
+ 
+#endif // CONFIG_H_IN

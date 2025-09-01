@@ -32,3 +32,4 @@ message("trex_lib_dir: ${trex_lib_dir}")
 message("trex_source_dir: ${trex_source_dir}")
 
 # Включите подпроекты
+add_subdirectory(${trex_source_dir}/tmaster)
